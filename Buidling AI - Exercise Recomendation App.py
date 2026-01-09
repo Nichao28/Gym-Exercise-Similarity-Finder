@@ -1,9 +1,5 @@
 import numpy as np
 
-'''exercise vector criteria: 
-[isUpperBody, targetsChest, targetsBack, targetsArms, targetsLegs,
-isCompund, withBarbell, isPush, isPull]'''
-
 exercises = {
     "bench_press":            [1, 1, 0, 1, 0, 1, 1, 1, 0],
     "incline_bench_press":    [1, 1, 0, 1, 0, 1, 1, 1, 0],
@@ -122,4 +118,5 @@ while True:
         reasons = explain_similarity(x_test, exercises[name])
 
         print("  Similar because:", ", ".join(reasons))
+
 
