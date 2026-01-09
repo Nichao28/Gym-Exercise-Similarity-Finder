@@ -4,7 +4,7 @@ Gym Exercise Similarity Finder (Building AI)
 
 ## Summary
 
-The projects gives recommendations on gym exercises based on the similarity to the exercise given by the user. 
+Project built entirely by me. The projects gives recommendations on gym exercises based on the similarity to the exercise given by the user. 
 Recommendations movement patterns, muscle groups, and equipment used. It can help users discover alternative exercises based on their preferenecs. 
 
 
